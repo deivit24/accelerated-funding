@@ -1,0 +1,71 @@
+// Media Query Mixin
+
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}
+
+
+
+// Smart Phones
+
+@include mediaSm {
+  body {
+
+    nav {
+      .nav-item .nav-link {
+        margin-bottom: 25px;
+        border-bottom: 1px solid rgb(228, 228, 228);
+
+
+      }
+    }
+
+
+
+  }
+
+  #jumbo {
+    height: 300px;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  #sec1 {
+    height: 300px !important;
+
+    h1 {
+      font-size: 1.5rem !important;
+
+    }
+
+    p {
+      font-size: 1.2rem !important;
+    }
+  }
+
+  #sec2 {
+    height: 100% !important;
+  }
+}
