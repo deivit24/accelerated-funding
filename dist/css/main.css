@@ -1,3 +1,8 @@
+@media screen and (max-width: 768px) {
+  #sec2 {
+    padding: 20px 0px !important;
+    height: 100% !important; } }
+
 @media screen and (max-width: 500px) {
   body nav .nav-item .nav-link {
     margin-bottom: 25px;
@@ -13,6 +18,7 @@
     #sec1 p {
       font-size: 1.2rem !important; }
   #sec2 {
+    padding: 50px 0px !important;
     height: 100% !important; } }
 
 body header {
@@ -175,7 +181,7 @@ body #sec2 {
           cursor: pointer; }
         body #sec2 .card .card-body a i {
           padding: 20px;
-          background: linear-gradient(rgba(0, 0, 0, 0.99), rgba(0, 0, 0, 0.99));
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
           border-radius: 50%;
           transition: all 0.2s ease-in-out;
           font-size: 50px;
