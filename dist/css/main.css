@@ -168,7 +168,8 @@ body #sec2 {
   flex-direction: column;
   justify-content: center; }
   body #sec2 .card {
-    background: transparent; }
+    background: transparent;
+    border: none; }
     body #sec2 .card .card-body {
       color: white;
       text-align: center; }
